@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import springmvcform.controller.model.Student;
 
-@org.springframework.stereotype.Controller
+@org.springframework.stereotype. Controller
 public class Controller {
 @RequestMapping("/home")
 	public String form( ) {
