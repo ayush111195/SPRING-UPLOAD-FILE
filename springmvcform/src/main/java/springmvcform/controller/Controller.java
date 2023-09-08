@@ -17,7 +17,7 @@ public class Controller {
 		
 	}
 @RequestMapping(path="/handleform",method=RequestMethod.POST)
-public String formHandler(@ModelAttribute("student") Student student ,  BindingResult result) {
+public String formHandler(@ModelAttribute("student") Student student , BindingResult result) {
 	if(result.hasErrors())
 	{                                                           //bindingresult use hhua h error ko 
 		return"index";                                          //  karne ke leye
